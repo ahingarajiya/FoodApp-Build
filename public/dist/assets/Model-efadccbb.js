@@ -1,0 +1,1 @@
+import{d as t,e as c,j as l}from"./index-e6dd49ca.js";function m({children:o,className:s="",open:r,onClose:a}){const e=t.useRef();return t.useEffect(()=>{r?e.current.showModal():e.current.close()},[r]),c.createPortal(l.jsxs("dialog",{ref:e,className:`modal ${s}`,onClose:a,children:[o," "]}),document.getElementById("modal"))}export{m as M};
